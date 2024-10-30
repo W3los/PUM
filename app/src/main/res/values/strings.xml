@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lista 1</string>
+    <string name="Nastepne">Następne</string>
+    <string name="reset_button_text">Reset</string>
+    <string-array name="questions">
+        <item>Pytanie 1/10|Co jest głównym składnikiem risotto?|Pomidory|Ryż|Ser twarogowy|Makaron|2</item>
+        <item>Pytanie 2/10|Ile przedsionków ma serce człowieka?|Jeden|Dwa|Żadnego|Trzy|2</item>
+        <item>Pytanie 3/10|Co jest głównym składnikiem ziemskiej atmosfery?|Tlen|Para wodna|Azot|Dwutlenek węgla|3</item>
+        <item>Pytanie 4/10|Ostatnia litera w greckim alfabecie to…|Alfa|Gamma|Zeta|Omega|4</item>
+        <item>Pytanie 5/10|Jednostką czego jest amper?|Prądu elektrycznego|Pracy|Światłości|Masy|1</item>
+        <item>Pytanie 6/10|Które miasto jest stolicą Egiptu|Kair|Nairobi|Aleksandria|Dakar|1</item>
+        <item>Pytanie 7/10|Czego symbolem chemicznym jest P?|Potas|Azot|Fosfor|Żelazo|3</item>
+        <item>Pytanie 8/10|Jaki kolor kryje się pod nazwą ultramaryna?|Zielony|Szary|Niebieski|Fioletowy|3</item>
+        <item>Pytanie 9/10|Jaką wielkość fizyczną mierzymy w paskalach?|Ciepło|Siłę|Przyspieszenie|Ciśnienie|4</item>
+        <item>Pytanie 10/10|Skąd pochodzą churros?|Grecja|Hiszpania|Portugalia|USA|2</item>
+    </string-array>
+</resources>

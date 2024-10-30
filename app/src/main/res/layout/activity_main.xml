@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="762dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <TextView
+            android:id="@+id/questionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="15sp"
+            android:gravity="center"
+            android:text="questions"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30sp"
+            android:progress="0"
+            android:progressTint="#496505" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginBottom="5sp"
+            android:background="#D9D9D9"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="#FBF9F1"
+            app:cardCornerRadius="10dp">
+
+            <RadioGroup
+                android:id="@+id/answersGroup"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp">
+
+                <RadioButton
+                    android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="#D9D9D9"
+                    android:backgroundTint="#D9D9D9"
+                    android:buttonTint="#FF0000"
+                    android:drawableTint="#D9D9D9"
+                    android:foregroundTint="#D9D9D9"
+                    android:minHeight="60sp"
+                    android:padding="5dp" />
+
+                <RadioButton
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="#D9D9D9"
+                    android:backgroundTint="#D9D9D9"
+                    android:buttonTint="#FF0000"
+                    android:drawableTint="#D9D9D9"
+                    android:foregroundTint="#D9D9D9"
+                    android:minHeight="60sp"
+                    android:padding="5dp" />
+
+                <RadioButton
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:background="#D9D9D9"
+                    android:backgroundTint="#D9D9D9"
+                    android:buttonTint="#FF0000"
+                    android:drawableTint="#D9D9D9"
+                    android:foregroundTint="#D9D9D9"
+                    android:minHeight="60sp"
+                    android:padding="5dp" />
+
+                <RadioButton
+                    android:id="@+id/answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30sp"
+                    android:background="#D9D9D9"
+                    android:backgroundTint="#D9D9D9"
+                    android:buttonTint="#FF0000"
+                    android:drawableTint="#D9D9D9"
+                    android:foregroundTint="#D9D9D9"
+                    android:minHeight="60sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/resultTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Twój wynik: "
+                    android:visibility="gone"
+                    android:textAlignment="center"/>
+            </RadioGroup>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:backgroundTint="#DEE6C5"
+            android:backgroundTintMode="add"
+            android:drawableTint="#DEE6C5"
+            android:foregroundTint="#DEE6C5"
+            android:insetTop="4dp"
+            android:shadowColor="#DEE6C5"
+            android:text="@string/Nastepne"
+            android:textColor="#000000"
+            android:textColorHighlight="#A0FF6C"
+            android:textColorLink="#C7FF8D"
+            android:textSize="24sp"
+            app:cornerRadius="3dp"
+            app:iconTint="#86FF70"
+            app:rippleColor="#D3D3D3"
+            app:strokeColor="#CEFB9E" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
