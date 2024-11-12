@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         // Wczytanie pytań z strings.xml
         questions = loadQuestions()
 
+        progressBar = findViewById(R.id.progressBar)
+        progressBar.max = 100
+
         // Wyświetlenie pierwszego pytania
         displayQuestion()
 
@@ -112,8 +115,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun updateProgressBar() {
-        val progress = (currentQuestionIndex + 1) * 100 / questions.size
-        progressBar.progress = progress
+        val test1 = (currentQuestionIndex + 1) * 100 / questions.size
+        progressBar.progress = test1
     }
 
     // Funkcja pokazująca wynik końcowy z gratulacjami

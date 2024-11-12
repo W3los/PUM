@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <ProgressBar
-            android:id="@+id/progressBar2"
+            android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="137dp"
             android:layout_height="wrap_content"
