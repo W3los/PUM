@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Material3 theme for Day/Night -->
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar" tools:ignore="ResourceCycle">
+        <!-- Your customizations -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!-- Customize colors and other attributes as needed -->
+    </style>
+</resources>
